@@ -1,60 +1,62 @@
-# Crimson – Japanese Restaurant Reservation Platform
+# 🍣 Crimson Ember – Japanese Restaurant Reservation Platform
 
-## Overview
+## 🌸 Overview
 
-**Crimson Ember** is a modern full-stack web application developed for a Japanese restaurant experience. The platform combines an elegant user interface with dynamic animations and a powerful backend system that allows customers to reserve tables online.
+**Crimson Ember** is a modern full-stack web application developed for a premium Japanese restaurant experience. The platform combines an elegant user interface, stunning animations, and a powerful backend system that allows customers to reserve tables online with ease.
 
-The application was built using **Angular** for the frontend and **Spring Boot** for the backend, providing a responsive, scalable, and user-friendly solution for restaurant management and customer reservations.
-
----
-
-## Features
-
-### Customer Features
-- Browse restaurant information and menu sections
-- Interactive and modern UI with smooth animations
-- Online table reservation system
-- Responsive design for desktop, tablet, and mobile devices
-- Real-time form validation
-- Seamless navigation between pages
-
-### Administrative Features
-- Manage reservations
-- Create, update, and delete reservation records
-- Database persistence
-- Backend API integration
-- Data validation and error handling
+Built using **Angular** for the frontend and **Spring Boot** for the backend, Crimson Ember delivers a responsive, scalable, and user-friendly restaurant reservation solution.
 
 ---
 
-## Technologies Used
+## ✨ Features
 
-### Frontend (Angular)
+### 👨‍🍳 Customer Features
+- 🍱 Browse restaurant information and menu sections
+- 🎨 Interactive and modern UI with smooth animations
+- 📅 Online table reservation system
+- 📱 Fully responsive design for desktop, tablet, and mobile devices
+- ✅ Real-time form validation
+- 🚀 Seamless page navigation
 
-The Angular application is built using modern Angular architecture and best practices.
+### 🛠️ Administrative Features
+- 📋 Manage reservations
+- ➕ Create reservations
+- ✏️ Update reservation details
+- ❌ Delete reservations
+- 🗄️ Database persistence
+- 🔗 Backend API integration
+- 🛡️ Data validation and error handling
 
-#### Core Angular Concepts
-- Components
-- Modules
-- Routing
-- Directives
-- Pipes
-- Forms (Reactive Forms)
-- Data Binding
-- Services
-- Dependency Injection
+---
 
-#### Angular Features Implemented
-- Component-based architecture
-- Lazy-loaded modules
-- Reactive forms with validation
-- HTTP Client communication
-- Route guards
-- Custom animations
-- Responsive layouts
-- Dynamic content rendering
+## 💻 Technologies Used
 
-#### Angular Technologies
+### 🎯 Frontend (Angular)
+
+The frontend was developed using Angular's modern architecture and best practices.
+
+#### 🔹 Core Angular Concepts
+- 🧩 Components
+- 📦 Modules
+- 🛣️ Routing
+- 🎭 Directives
+- 🔄 Pipes
+- 📝 Forms (Reactive Forms)
+- 🔗 Data Binding
+- ⚙️ Services
+- 💉 Dependency Injection
+
+#### 🔹 Angular Features Implemented
+- 🏗️ Component-based architecture
+- ⚡ Lazy-loaded modules
+- 📋 Reactive forms with validation
+- 🌐 HTTP Client communication
+- 🔒 Route Guards
+- 🎬 Custom animations
+- 📱 Responsive layouts
+- 🔄 Dynamic content rendering
+
+#### 🔹 Angular Technologies
 - Angular
 - TypeScript
 - HTML5
@@ -66,19 +68,19 @@ The Angular application is built using modern Angular architecture and best prac
 
 ---
 
-### Backend (Spring Boot)
+### ☕ Backend (Spring Boot)
 
-The backend provides RESTful APIs and handles business logic, reservation management, and database operations.
+The backend handles business logic, reservation management, and database communication through RESTful APIs.
 
-#### Spring Boot Features
-- REST API Development
-- CRUD Operations
-- Service Layer Architecture
-- Exception Handling
-- Data Validation
-- Dependency Injection
+#### 🔹 Spring Boot Features
+- 🌐 REST API Development
+- 🔄 CRUD Operations
+- 🏛️ Service Layer Architecture
+- ⚠️ Exception Handling
+- ✅ Data Validation
+- 💉 Dependency Injection
 
-#### Java Technologies
+#### 🔹 Java Technologies
 - Java
 - Spring Boot
 - Spring Web
@@ -88,93 +90,95 @@ The backend provides RESTful APIs and handles business logic, reservation manage
 
 ---
 
-### Database
+### 🗃️ Database
 
-The application is connected to a fully functional relational database that stores reservation information.
+The application is connected to a fully functional relational database that stores and manages reservation information.
 
-#### Database Features
-- Reservation persistence
-- Data integrity
-- Efficient querying
-- Relationship management
+#### 🔹 Database Features
+- 💾 Reservation persistence
+- 🔐 Data integrity
+- ⚡ Efficient querying
+- 🔗 Relationship management
 
-#### Technologies
+#### 🔹 Technologies
 - MySQL
-- JPA/Hibernate
+- JPA / Hibernate
 
 ---
 
-## CRUD Functionality
+## 🔄 CRUD Functionality
 
 The reservation system supports full CRUD operations:
 
-### Create
-- Create a new table reservation
+### ➕ Create
+Create a new table reservation.
 
-### Read
-- Retrieve reservation information
+### 📖 Read
+Retrieve reservation information from the database.
 
-### Update
-- Modify existing reservations
+### ✏️ Update
+Modify existing reservation details.
 
-### Delete
-- Cancel and remove reservations
-
----
-
-## Architecture
-
-Frontend (Angular)
-↓
-REST API Communication
-↓
-Backend (Spring Boot)
-↓
-JPA / Hibernate
-↓
-MySQL Database
+### ❌ Delete
+Cancel and remove reservations.
 
 ---
 
-## User Flow
+## 🏗️ System Architecture
 
-1. User visits the Crimson website
-2. User explores restaurant information
-3. User selects a reservation date and time
-4. User completes the reservation form
-5. Angular validates the input
-6. Reservation request is sent to Spring Boot API
-7. Backend processes the request
-8. Reservation is stored in the database
-9. User receives confirmation
-
----
-
-## Project Highlights
-
-- Modern Japanese-inspired design
-- Smooth and engaging animations
-- Responsive user experience
-- Full-stack architecture
-- Secure REST API communication
-- Functional reservation management system
-- Clean and maintainable code structure
-- Scalable backend implementation
+```text
+🎨 Angular Frontend
+          ↓
+     🌐 REST API
+          ↓
+☕ Spring Boot Backend
+          ↓
+    🔄 JPA/Hibernate
+          ↓
+     🗄️ MySQL Database
+```
 
 ---
 
-## Future Improvements
+## 🚀 User Flow
 
-- Authentication and authorization
-- Online ordering system
-- Payment integration
-- Reservation email notifications
-- Admin dashboard analytics
-- Customer profile management
-- Multi-language support
+1. 🌸 User visits the Crimson Ember website
+2. 🍜 User explores restaurant information
+3. 📅 User selects a reservation date and time
+4. 📝 User completes the reservation form
+5. ✅ Angular validates user input
+6. 🌐 Request is sent to the Spring Boot API
+7. ⚙️ Backend processes the reservation
+8. 💾 Reservation is stored in the database
+9. 🎉 User receives confirmation
 
 ---
 
-## Authors
+## ⭐ Project Highlights
 
-Developed as a full-stack web application using Angular and Spring Boot for the Crimson Japanese Restaurant.
+- 🍣 Japanese-inspired modern design
+- 🎬 Smooth and engaging animations
+- 📱 Fully responsive interface
+- 🔥 Full-stack architecture
+- 🔗 REST API integration
+- 📅 Functional reservation management system
+- 🧹 Clean and maintainable codebase
+- 📈 Scalable backend implementation
+
+---
+
+## 🔮 Future Improvements
+
+- 🔐 Authentication & Authorization
+- 🛒 Online ordering system
+- 💳 Payment gateway integration
+- 📧 Reservation email notifications
+- 📊 Admin analytics dashboard
+- 👤 Customer profiles
+- 🌍 Multi-language support
+
+---
+
+## 👨‍💻 Authors
+
+Developed as a **Full-Stack Web Application** using **Angular**, **Spring Boot**, and **MySQL** for **Crimson 🍣 – Japanese Restaurant Reservation Platform**.
