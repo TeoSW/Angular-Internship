@@ -183,4 +183,4 @@ Cancel and remove reservations.
 
 ## 👨‍💻 Authors
 
-Developed as a **Full-Stack Web Application** using **Angular**, **Spring Boot**, and **MySQL** for **Crimson 🍣 – Japanese Restaurant Reservation Platform**.
+Developed as a **Full-Stack Web Application** using **Angular**, **Spring Boot**, and **MySQL** for **Crimson Ember 🍣 – Japanese Restaurant Reservation Platform**.
