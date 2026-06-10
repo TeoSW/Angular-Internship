@@ -6,7 +6,7 @@
 
 Built using **Angular** for the frontend and **Spring Boot** for the backend, Crimson Ember delivers a responsive, scalable, and user-friendly restaurant reservation solution.
 
-[▶️ Watch Crimson Demo]([https://your-video-link.com](https://drive.google.com/file/d/1vncXe6yz4bFuOm2woX3Vq6b0OiUOAEeP/view?usp=sharing))
+[▶️ Watch Crimson Demo](https://drive.google.com/file/d/1vncXe6yz4bFuOm2woX3Vq6b0OiUOAEeP/view?usp=sharing)
 
 ---
 
